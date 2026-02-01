@@ -339,6 +339,33 @@
             top: 0.3rem;
         }
 
+        .language-switch {
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .language-switch a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .language-switch a:hover {
+            color: #3498db;
+        }
+
+        .language-switch .active {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+
         @media print {
             * {
                 print-color-adjust: exact !important;
@@ -586,6 +613,11 @@
             <i class="fas fa-print"></i> <span>Imprimir</span>
         </button>
         <header>
+            <div class="language-switch">
+                <a href="/" class="active">PT-BR</a>
+                <span>|</span>
+                <a href="/en">EN</a>
+            </div>
             <h1>BRUNO OLIVEIRA</h1>
             <p class="subtitle">Full Stack PHP Developer</p>
             <ul class="contacts">
@@ -866,4 +898,3 @@
 
 
 </html>
-
