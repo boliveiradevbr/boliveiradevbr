@@ -1,6 +1,6 @@
 # Welcome to my GitHub Playground! 🚀
 
-**Greetings, fellow developers! 👋 I'm Bruno Oliveira, a passionate fullstack developer from Brazil. 🇧🇷**
+**Greetings! 👋 I'm Bruno Oliveira, a passionate fullstack developer from Brazil. 🇧🇷**
 
 You've stumbled upon my coding haven, and I'm thrilled to have you here. Feel free to explore, clone, fork, and collaborate on my projects. If you spot anything that could use some improvement, don't hesitate to raise an issue or submit a pull request. Your contributions are highly appreciated! 🌟
 
