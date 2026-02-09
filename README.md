@@ -1,44 +1,80 @@
-# Welcome to my GitHub Playground! 🚀
+# Hi, welcome to my GitHub 👋🚀
 
-**Greetings! 👋 I'm Bruno Oliveira, a passionate fullstack developer from Brazil. 🇧🇷**
+I'm **Bruno Oliveira**, a **Senior Fullstack Software Engineer** from Brazil 🇧🇷,  
+specialized in building **SaaS products, scalable backends and high-availability systems**, with strong expertise in **Laravel**.
 
-You've stumbled upon my coding haven, and I'm thrilled to have you here. Feel free to explore, clone, fork, and collaborate on my projects. If you spot anything that could use some improvement, don't hesitate to raise an issue or submit a pull request. Your contributions are highly appreciated! 🌟
+I work end-to-end on software products — from **domain modeling and backend architecture** to **frontend delivery and infrastructure**. My focus is on **clean architecture, maintainable codebases and solutions aligned with real business needs**.
 
-## 🛠️ Technologies & Tools
+---
 
-Let's embark on a tech journey together! Here are some of the tools and technologies I love to work with:
+## 💼 What I Focus On
 
--   **PHP 💻**
--   **Laravel 🚀**
--   **CodeIgniter 🔄**
--   **Node.js 🌐**
--   **Express 🚂**
--   **React ⚛️**
--   **React Native 📱**
--   **Vue.js 🌿**
--   **Redis 🔄**
--   **Linux 🐧**
--   **AWS ☁️**
+- Designing and developing **SaaS platforms** (multi-tenant, subscriptions, billing)
+- Backend architecture with **Laravel** (DDD, clean architecture, modular monoliths)
+- API design, authentication, authorization and integrations
+- Performance optimization, caching and queues
+- Building systems that scale with **predictability and stability**
+- Translating business rules into clear, testable code
 
-Feel the power of coding with these amazing technologies!
+---
 
-## 🤝 Get in Touch
+## 🛠️ Core Stack
 
-Have a question, suggestion, or just want to chat about coding? Reach out to me:
+### Backend
+- **PHP / Laravel** (queues, jobs, events, policies, multi-tenancy)
+- Node.js (Express)
+- RESTful APIs
 
-<a href="https://www.linkedin.com/in/boliveiradev" target="_blank" style="text-decoration: none !important">
-  <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+### Frontend
+- React
+- Vue.js
+- React Native
+
+### Infrastructure & Data
+- PostgreSQL / MySQL
+- Redis
+- Linux
+- AWS
+- Docker
+- CI/CD pipelines
+
+---
+
+## 🧠 Engineering Practices
+
+- Clean Architecture & Domain-Driven Design (DDD)
+- Modular monoliths & service-oriented design
+- SOLID principles and design patterns
+- Code reviews and technical mentoring
+- Observability, logging and performance monitoring
+
+---
+
+## 📂 About This GitHub
+
+This GitHub is a reflection of my professional interests and experience:
+- SaaS foundations and reusable modules
+- Laravel architecture patterns
+- Business-driven features (billing, permissions, workflows)
+- Proofs of concept and technical experiments
+
+Feel free to explore the repositories, open issues or contribute.  
+Technical discussions and collaboration are always welcome.
+
+---
+
+## 🤝 Let’s Connect
+
+<a href="https://www.linkedin.com/in/boliveiradev" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://wa.me/5513996657883" target="_blank" style="text-decoration: none !important">
-  <img src="https://img.shields.io/badge/whatsapp-01A884.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/5513996657883" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-01A884.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
-<a href="mailto:bholiveira.web@gmail.com" target="_blank" style="text-decoration: none !important">
-  <img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/bholiveiradev/bholiveiradev/issues/new" style="text-decoration: none !important">
-  <img src="https://img.shields.io/badge/issue-FFFFFF.svg?&style=for-the-badge&logo=github&logoColor=black" />
+<a href="mailto:bholiveira.web@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
-## 🚀 Happy Coding!
+---
 
-Thanks for dropping by! Now, let's embark on a journey of endless lines of code and joyful debugging sessions. Happy coding! 😊✨
+🚀 **Building software with long-term vision, not just features.**
