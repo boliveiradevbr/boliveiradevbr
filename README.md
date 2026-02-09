@@ -62,8 +62,8 @@
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bholiveiradev&show_icons=true&theme=transparent&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bholiveiradev&layout=compact&theme=transparent&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=boliveiradevbr&show_icons=true&theme=transparent&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boliveiradevbr&layout=compact&theme=transparent&hide_border=true" />
 </p>
 
 ---
@@ -87,7 +87,7 @@
   <a href="mailto:bholiveira.web@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://wa.me/5513996657883">
+  <a href="https://wa.me/5518936191084">
     <img src="https://img.shields.io/badge/WhatsApp-01A884?style=for-the-badge&logo=whatsapp&logoColor=white"/>
   </a>
 </p>
