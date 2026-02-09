@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&color=36BCF7&center=true&vCenter=true&width=800&lines=Senior+Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&color=36BCF7&center=true&vCenter=true&width=800&lines=Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
 </p>
 
 ---
@@ -7,7 +7,7 @@
 ## 👋 Hi, I'm Bruno Oliveira
 
 <p align="center">
-  <strong>Senior Fullstack Software Engineer • SaaS Architect • Laravel Specialist</strong><br/>
+  <strong>Fullstack Software Engineer • SaaS Architect • Laravel Specialist</strong><br/>
   🇧🇷 Brazil • 🌍 Remote Friendly
 </p>
 
@@ -62,9 +62,9 @@
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=boliveiradevbr&show_icons=true&theme=transparent&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boliveiradevbr&layout=compact&theme=transparent&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=boliveiradevbr&theme=github-dark&hide_border=true" />
 </p>
+
 
 ---
 
