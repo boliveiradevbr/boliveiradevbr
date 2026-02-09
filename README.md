@@ -1,80 +1,99 @@
-# Hi, welcome to my GitHub 👋🚀
-
-I'm **Bruno Oliveira**, a **Senior Fullstack Software Engineer** from Brazil 🇧🇷,  
-specialized in building **SaaS products, scalable backends and high-availability systems**, with strong expertise in **Laravel**.
-
-I work end-to-end on software products — from **domain modeling and backend architecture** to **frontend delivery and infrastructure**. My focus is on **clean architecture, maintainable codebases and solutions aligned with real business needs**.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&color=36BCF7&center=true&vCenter=true&width=800&lines=Senior+Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
+</p>
 
 ---
 
-## 💼 What I Focus On
+## 👋 Hi, I'm Bruno Oliveira
 
-- Designing and developing **SaaS platforms** (multi-tenant, subscriptions, billing)
-- Backend architecture with **Laravel** (DDD, clean architecture, modular monoliths)
-- API design, authentication, authorization and integrations
-- Performance optimization, caching and queues
-- Building systems that scale with **predictability and stability**
-- Translating business rules into clear, testable code
+<p align="center">
+  <strong>Senior Fullstack Software Engineer • SaaS Architect • Laravel Specialist</strong><br/>
+  🇧🇷 Brazil • 🌍 Remote Friendly
+</p>
 
----
-
-## 🛠️ Core Stack
-
-### Backend
-- **PHP / Laravel** (queues, jobs, events, policies, multi-tenancy)
-- Node.js (Express)
-- RESTful APIs
-
-### Frontend
-- React
-- Vue.js
-- React Native
-
-### Infrastructure & Data
-- PostgreSQL / MySQL
-- Redis
-- Linux
-- AWS
-- Docker
-- CI/CD pipelines
+<p align="center">
+  I build <strong>SaaS platforms</strong> with focus on <strong>scalability, clean architecture and long-term maintainability</strong>.<br/>
+  From domain modeling to production-ready infrastructure.
+</p>
 
 ---
 
-## 🧠 Engineering Practices
+## 🧩 Core Expertise
 
-- Clean Architecture & Domain-Driven Design (DDD)
-- Modular monoliths & service-oriented design
-- SOLID principles and design patterns
-- Code reviews and technical mentoring
-- Observability, logging and performance monitoring
+<table>
+<tr>
+<td width="50%">
 
----
+### 🏗️ Backend & Architecture
+- Laravel (modular monoliths, queues, events)
+- Multi-tenancy & subscription systems
+- APIs, auth, billing & integrations
+- Performance, caching & background jobs
 
-## 📂 About This GitHub
+</td>
+<td width="50%">
 
-This GitHub is a reflection of my professional interests and experience:
-- SaaS foundations and reusable modules
-- Laravel architecture patterns
-- Business-driven features (billing, permissions, workflows)
-- Proofs of concept and technical experiments
+### 🎨 Frontend & Product
+- React & Vue.js
+- Responsive & product-oriented UI
+- UX focused on business workflows
+- Web & Mobile (React Native)
 
-Feel free to explore the repositories, open issues or contribute.  
-Technical discussions and collaboration are always welcome.
-
----
-
-## 🤝 Let’s Connect
-
-<a href="https://www.linkedin.com/in/boliveiradev" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://wa.me/5513996657883" target="_blank">
-  <img src="https://img.shields.io/badge/WhatsApp-01A884.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
-</a>
-<a href="mailto:bholiveira.web@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+</td>
+</tr>
+</table>
 
 ---
 
-🚀 **Building software with long-term vision, not just features.**
+## ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-EF3B2D?style=for-the-badge&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+</p>
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bholiveiradev&show_icons=true&theme=transparent&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bholiveiradev&layout=compact&theme=transparent&hide_border=true" />
+</p>
+
+---
+
+## 🧠 Engineering Principles
+
+✔ Clean Architecture & DDD  
+✔ Business-first development  
+✔ Predictable scaling  
+✔ Maintainable codebases  
+✔ Long-term product vision  
+
+---
+
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/boliveiradev">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:bholiveira.web@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://wa.me/5513996657883">
+    <img src="https://img.shields.io/badge/WhatsApp-01A884?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <strong>🚀 Building software that scales beyond features.</strong>
+</p>
