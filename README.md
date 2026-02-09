@@ -1,10 +1,8 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&color=36BCF7&center=true&vCenter=true&width=800&lines=Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=4000&color=36BCF7&center=true&vCenter=true&width=800&lines=Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
 </p>
 
 ---
-
-## 👋 Hi, I'm Bruno Oliveira
 
 <p align="center">
   <strong>Fullstack Software Engineer • SaaS Architect • Laravel Specialist</strong><br/>
@@ -47,7 +45,7 @@
 
 ## ⚙️ Tech Stack
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Laravel-EF3B2D?style=for-the-badge&logo=laravel&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
@@ -80,7 +78,7 @@
 
 ## 🤝 Connect With Me
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/boliveiradev">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
   </a>
