@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=38&duration=4000&color=39D353&center=true&vCenter=true&lines=Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=4000&color=39D353&center=true&width=846&vCenter=true&lines=Fullstack+Engineer;SaaS+Architect+%7C+Laravel+Specialist;Building+Scalable+Software+With+Purpose" />
 </p>
 
 ---
