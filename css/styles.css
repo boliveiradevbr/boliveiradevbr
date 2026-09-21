@@ -1,0 +1,97 @@
+html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0B0B0B;
+            color: #EDEDED;
+        }
+
+        ::selection {
+            background: #00FF66;
+            color: #000;
+        }
+
+        .grid-bg {
+            background-image:
+                linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+            background-size: 48px 48px;
+        }
+
+        .scanline {
+            position: relative;
+        }
+
+        .scanline::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -1px;
+            height: 1px;
+            background: #00FF66;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .35s ease;
+        }
+
+        .scanline:hover::after {
+            transform: scaleX(1);
+        }
+
+        .timeline-line {
+            background: linear-gradient(
+                to bottom,
+                #00FF66 0,
+                #333 80px,
+                #333 100%
+            );
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 18px;
+            margin-left: 5px;
+            background: #00FF66;
+            vertical-align: -2px;
+            animation: blink 1s steps(1) infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(14px);
+            animation: reveal .7s ease forwards;
+        }
+
+        .delay-1 { animation-delay: .08s; }
+        .delay-2 { animation-delay: .16s; }
+        .delay-3 { animation-delay: .24s; }
+        .delay-4 { animation-delay: .32s; }
+
+        @keyframes reveal {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                transition-duration: .01ms !important;
+            }
+        }
