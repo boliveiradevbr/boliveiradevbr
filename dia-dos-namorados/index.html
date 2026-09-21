@@ -1,283 +1,695 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
+        <title>Feliz Dia dos Namorados ❤️</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Feliz Dia dos Namorados ❤️</title>
+        <script src="js/tailwind.js"></script>
 
-    <meta property="og:title" content="Nossa História ❤️">
-    <meta property="og:description" content="Uma homenagem para o amor da minha vida.">
-    <meta property="og:image" content="images/hero.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
 
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-    />
-</head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
+    <body class="min-h-screen overflow-x-hidden text-zinc-100 font-sans">
+        <!-- Floating hearts -->
+        <div
+            id="hearts"
+            class="fixed inset-0 pointer-events-none overflow-hidden z-0"
+        ></div>
 
-<div class="hearts"></div>
+        <main class="relative z-10">
+            <!-- ========================================================= -->
+            <!-- HERO -->
+            <!-- ========================================================= -->
 
-<section class="hero">
+            <section
+                id="home"
+                class="relative min-h-screen flex items-center justify-center px-4 py-20"
+            >
+                <div class="absolute inset-0 grid-bg opacity-40"></div>
 
-    <div class="overlay" data-aos="fade-up">
+                <div
+                    class="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-rose-500/10 blur-[120px]"
+                ></div>
 
-        <p class="code-line">
-            if (love == true)
-        </p>
+                <div
+                    class="absolute bottom-1/4 right-1/4 w-72 h-72 rounded-full bg-violet-500/10 blur-[120px]"
+                ></div>
 
-        <h1>
-            Você mudou meu código-fonte ❤️
-        </h1>
+                <div class="relative w-full max-w-5xl">
+                    <!-- IDE -->
+                    <div
+                        class="glass neon-border rounded-2xl overflow-hidden shadow-2xl"
+                    >
+                        <!-- IDE top bar -->
+                        <div
+                            class="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-zinc-950/80"
+                        >
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="w-3 h-3 rounded-full bg-red-500"
+                                ></span>
+                                <span
+                                    class="w-3 h-3 rounded-full bg-yellow-500"
+                                ></span>
+                                <span
+                                    class="w-3 h-3 rounded-full bg-green-500"
+                                ></span>
+                            </div>
 
-        <p class="subtitle">
-            E tornou minha vida a melhor versão possível.
-        </p>
+                            <div
+                                class="text-[11px] sm:text-xs font-mono text-zinc-500"
+                            >
+                                ~/relationship/src
+                            </div>
 
-        <a href="#counter" class="btn">
-            Nossa História
-        </a>
+                            <div class="w-14"></div>
+                        </div>
 
-    </div>
+                        <!-- tab -->
+                        <div
+                            class="flex items-center border-b border-white/10 bg-zinc-900/70"
+                        >
+                            <div
+                                class="px-4 py-2.5 text-xs sm:text-sm font-mono border-r border-white/10 bg-zinc-950/80 text-zinc-200"
+                            >
+                                <span class="text-blue-400">TS</span>
+                                relationship.ts
+                                <span class="text-zinc-600 ml-2">×</span>
+                            </div>
+                        </div>
 
-</section>
+                        <!-- code -->
+                        <div
+                            class="p-5 sm:p-8 md:p-10 bg-zinc-950/60 font-mono text-xs sm:text-sm md:text-base overflow-x-auto"
+                        >
+                            <div class="flex gap-5 min-w-[620px]">
+                                <div
+                                    class="select-none text-zinc-700 text-right leading-8"
+                                >
+                                    01<br />
+                                    02<br />
+                                    03<br />
+                                    04<br />
+                                    05<br />
+                                    06<br />
+                                    07<br />
+                                    08<br />
+                                    09
+                                </div>
 
-<section id="counter" class="counter"  data-aos="zoom-in">
+                                <pre
+                                    class="leading-8"
+                                ><code><span class="code-keyword">const</span> <span class="code-variable">relationship</span> = {
+  <span class="code-variable">status</span>: <span class="code-string">"forever"</span>,
+  <span class="code-variable">trust</span>: <span class="code-number">100</span>,
+  <span class="code-variable">love</span>: <span class="code-number">Infinity</span>,
+};
 
-    <h2>Estamos juntos há</h2>
+<span class="code-keyword">if</span> (<span class="code-variable">love</span> == <span class="code-keyword">true</span>) {
+  <span class="code-function">startForever</span>();
+  <span class="code-comment">// Você mudou meu código-fonte ❤️</span>
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="time-grid">
+                    <!-- Hero content -->
+                    <div class="text-center mt-10">
+                        <div
+                            class="font-mono text-xs sm:text-sm text-emerald-400 mb-5"
+                        >
+                            <span class="text-zinc-600">$</span>
+                            npm run relationship
+                            <span
+                                class="inline-block w-2 h-4 bg-emerald-400 ml-1 align-middle animate-blink"
+                            ></span>
+                        </div>
 
-    <div class="card">
-        <span id="years">0</span>
-        <small>Anos</small>
-    </div>
+                        <h1
+                            class="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight"
+                        >
+                            <span
+                                id="typingText"
+                                class="bg-gradient-to-r from-rose-400 via-pink-400 to-violet-400 bg-[length:200%_200%] animate-gradient bg-clip-text text-transparent"
+                            ></span>
+                            <span class="text-rose-500 animate-blink">|</span>
+                        </h1>
 
-    <div class="card">
-        <span id="months">0</span>
-        <small>Meses</small>
-    </div>
+                        <p
+                            class="mt-6 text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto"
+                        >
+                            E tornou minha vida a melhor versão possível.
+                        </p>
 
-    <div class="card">
-        <span id="days">0</span>
-        <small>Dias</small>
-    </div>
+                        <a
+                            id="heroCta"
+                            href="#timeline"
+                            class="inline-flex items-center gap-3 mt-9 px-7 py-4 rounded-xl bg-gradient-to-r from-rose-500 to-violet-500 font-semibold text-white shadow-lg shadow-rose-500/20 hover:scale-105 transition-all duration-300 animate-pulse-glow"
+                        >
+                            <span>→</span>
+                            Nossa História
+                            <span>❤️</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
+            <!-- ========================================================= -->
+            <!-- COUNTER -->
+            <!-- ========================================================= -->
+
+            <section class="px-4 py-24">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center mb-12">
+                        <div class="font-mono text-xs text-emerald-400 mb-3">
+                            // runtime statistics
+                        </div>
+
+                        <h2 class="text-3xl sm:text-4xl font-bold">
+                            Estamos juntos há
+                        </h2>
+
+                        <p class="mt-3 text-zinc-500">
+                            Vivendo nossa melhor aventura
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="glass rounded-2xl p-5 sm:p-7 neon-border">
+                            <div class="font-mono text-xs text-zinc-500 mb-3">
+                                Years.uptime
+                            </div>
+
+                            <div
+                                id="years"
+                                class="text-4xl sm:text-5xl font-bold text-rose-400"
+                            >
+                                0
+                            </div>
+
+                            <div class="text-sm text-zinc-500 mt-2">Anos</div>
+                        </div>
+
+                        <div class="glass rounded-2xl p-5 sm:p-7 neon-border">
+                            <div class="font-mono text-xs text-zinc-500 mb-3">
+                                Months.commit
+                            </div>
+
+                            <div
+                                id="months"
+                                class="text-4xl sm:text-5xl font-bold text-violet-400"
+                            >
+                                0
+                            </div>
+
+                            <div class="text-sm text-zinc-500 mt-2">Meses</div>
+                        </div>
+
+                        <div class="glass rounded-2xl p-5 sm:p-7 neon-border">
+                            <div class="font-mono text-xs text-zinc-500 mb-3">
+                                Days.exec
+                            </div>
+
+                            <div
+                                id="days"
+                                class="text-4xl sm:text-5xl font-bold text-emerald-400"
+                            >
+                                0
+                            </div>
+
+                            <div class="text-sm text-zinc-500 mt-2">Dias</div>
+                        </div>
+
+                        <div class="glass rounded-2xl p-5 sm:p-7 neon-border">
+                            <div class="font-mono text-xs text-zinc-500 mb-3">
+                                Seconds.live
+                            </div>
+
+                            <div
+                                id="seconds"
+                                class="text-4xl sm:text-5xl font-bold text-pink-400"
+                            >
+                                0
+                            </div>
+
+                            <div class="text-sm text-zinc-500 mt-2">
+                                Segundos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- TIMELINE -->
+            <!-- ========================================================= -->
+
+            <section id="timeline" class="px-4 py-24 bg-zinc-950/40">
+                <div class="max-w-5xl mx-auto">
+                    <div class="text-center mb-16">
+                        <div class="font-mono text-xs text-rose-400 mb-3">
+                            $ git log --graph --oneline
+                        </div>
+
+                        <h2 class="text-3xl sm:text-4xl font-bold">
+                            Nossa Timeline
+                        </h2>
+                    </div>
+
+                    <div class="relative">
+                        <!-- branch -->
+                        <div
+                            class="timeline-line absolute left-5 md:left-1/2 top-0 bottom-0 w-px md:-translate-x-1/2"
+                        ></div>
+
+                        <!-- commit 001 -->
+                        <article
+                            class="relative grid md:grid-cols-2 gap-8 mb-16"
+                        >
+                            <div class="md:text-right md:pr-12">
+                                <div
+                                    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-rose-500/10 border border-rose-500/20 font-mono text-xs text-rose-300"
+                                >
+                                    <span>commit #001</span>
+                                    <span class="text-zinc-600">·</span>
+                                    <span>#a1b2c3d</span>
+                                </div>
+
+                                <div
+                                    class="mt-4 text-xs font-mono text-emerald-400"
+                                >
+                                    [main branch]
+                                </div>
+
+                                <h3 class="text-2xl font-bold mt-2">
+                                    Primeiro Encontro
+                                </h3>
+
+                                <p class="mt-3 text-zinc-400">
+                                    O dia que mudou tudo.
+                                </p>
+                            </div>
+
+                            <div class="md:pl-12">
+                                <div
+                                    class="relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 group"
+                                >
+                                    <img
+                                        src="images/photo1.jpg"
+                                        alt="Primeiro Encontro"
+                                        class="w-full aspect-[4/3] object-cover transition duration-700 group-hover:scale-105"
+                                    />
+
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="timeline-dot absolute left-5 md:left-1/2 top-2 w-3 h-3 rounded-full bg-rose-400 -translate-x-1/2"
+                            ></div>
+                        </article>
+
+                        <!-- commit 002 -->
+                        <article
+                            class="relative grid md:grid-cols-2 gap-8 mb-16"
+                        >
+                            <div class="md:order-2 md:pl-12">
+                                <div
+                                    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-violet-500/10 border border-violet-500/20 font-mono text-xs text-violet-300"
+                                >
+                                    <span>commit #002</span>
+                                    <span class="text-zinc-600">·</span>
+                                    <span>#d4e5f6a</span>
+                                </div>
+
+                                <div
+                                    class="mt-4 text-xs font-mono text-emerald-400"
+                                >
+                                    [main branch]
+                                </div>
+
+                                <h3 class="text-2xl font-bold mt-2">
+                                    Primeira Viagem
+                                </h3>
+
+                                <p class="mt-3 text-zinc-400">
+                                    Memórias que jamais serão esquecidas.
+                                </p>
+                            </div>
+
+                            <div class="md:order-1 md:pr-12">
+                                <div
+                                    class="relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 group"
+                                >
+                                    <img
+                                        src="images/photo2.jpg"
+                                        alt="Primeira Viagem"
+                                        class="w-full aspect-[4/3] object-cover transition duration-700 group-hover:scale-105"
+                                    />
+                                </div>
+                            </div>
+
+                            <div
+                                class="timeline-dot absolute left-5 md:left-1/2 top-2 w-3 h-3 rounded-full bg-violet-400 -translate-x-1/2"
+                            ></div>
+                        </article>
+
+                        <!-- commit 003 -->
+                        <article class="relative grid md:grid-cols-2 gap-8">
+                            <div class="md:text-right md:pr-12">
+                                <div
+                                    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 font-mono text-xs text-emerald-300"
+                                >
+                                    <span>commit #003</span>
+                                    <span class="text-zinc-600">·</span>
+                                    <span>#b7c8d9e</span>
+                                </div>
+
+                                <div
+                                    class="mt-4 text-xs font-mono text-emerald-400"
+                                >
+                                    [main branch]
+                                </div>
+
+                                <h3 class="text-2xl font-bold mt-2">
+                                    Nossos Sonhos
+                                </h3>
+
+                                <p class="mt-3 text-zinc-400">
+                                    Construídos juntos.
+                                </p>
+                            </div>
+
+                            <div class="md:pl-12">
+                                <div
+                                    class="relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 group"
+                                >
+                                    <img
+                                        src="images/photo3.jpg"
+                                        alt="Nossos Sonhos"
+                                        class="w-full aspect-[4/3] object-cover transition duration-700 group-hover:scale-105"
+                                    />
+                                </div>
+                            </div>
+
+                            <div
+                                class="timeline-dot absolute left-5 md:left-1/2 top-2 w-3 h-3 rounded-full bg-emerald-400 -translate-x-1/2"
+                            ></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- GALLERY -->
+            <!-- ========================================================= -->
+
+            <section class="px-4 py-24">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center mb-14">
+                        <div class="font-mono text-xs text-violet-400 mb-3">
+                            // memories collection
+                        </div>
+
+                        <h2 class="text-3xl sm:text-4xl font-bold">
+                            Momentos Inesquecíveis
+                        </h2>
+                    </div>
+
+                    <div
+                        class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6"
+                        id="gallery"
+                    ></div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- LOVE LETTER -->
+            <!-- ========================================================= -->
+
+            <section class="px-4 py-24 bg-zinc-950/50">
+                <div class="max-w-3xl mx-auto">
+                    <div class="glass rounded-3xl p-7 sm:p-10 md:p-14">
+                        <div class="font-mono text-xs text-rose-400 mb-7">
+                            love-letter.md
+                        </div>
+
+                        <div
+                            class="text-zinc-300 leading-8 text-base sm:text-lg"
+                        >
+                            <p class="mb-6">
+                                Existem momentos na vida que mudam tudo.
+                            </p>
+
+                            <p class="mb-6">
+                                Algumas pessoas passam anos procurando
+                                felicidade, enquanto eu tive a sorte de
+                                encontrá-la em você.
+                            </p>
+
+                            <blockquote
+                                class="my-8 pl-5 border-l-2 border-rose-500 text-transparent bg-gradient-to-r from-rose-300 to-violet-300 bg-clip-text italic"
+                            >
+                                "Você transformou dias comuns em memórias
+                                extraordinárias."
+                            </blockquote>
+
+                            <p class="mb-6">
+                                Obrigado por cada sorriso compartilhado, por
+                                cada abraço nos dias difíceis, por acreditar em
+                                nós mesmo quando o caminho parecia distante.
+                            </p>
+
+                            <p class="mb-6">
+                                Se eu pudesse voltar no tempo, escolheria você
+                                novamente. E novamente. E novamente.
+                            </p>
+
+                            <blockquote
+                                class="my-8 pl-5 border-l-2 border-violet-500 text-transparent bg-gradient-to-r from-violet-300 to-rose-300 bg-clip-text italic"
+                            >
+                                "Entre bilhões de pessoas no mundo, meu lugar
+                                favorito continua sendo ao seu lado."
+                            </blockquote>
+
+                            <p>
+                                Que possamos continuar escrevendo nossa
+                                história, página por página, sonho por sonho,
+                                conquista por conquista.
+                            </p>
+
+                            <div class="mt-10 pt-8 border-t border-white/10">
+                                <p class="text-zinc-500">Com todo meu amor,</p>
+
+                                <h3
+                                    class="mt-2 text-3xl font-bold text-transparent bg-gradient-to-r from-rose-400 to-violet-400 bg-clip-text"
+                                >
+                                    Bruno
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- TERMINAL -->
+            <!-- ========================================================= -->
+
+            <section class="px-4 py-24">
+                <div class="max-w-3xl mx-auto">
+                    <div
+                        class="overflow-hidden rounded-2xl border border-white/10 bg-[#0d1117] shadow-2xl"
+                    >
+                        <!-- terminal header -->
+                        <div
+                            class="flex items-center gap-2 px-4 py-3 bg-zinc-900 border-b border-white/10"
+                        >
+                            <span
+                                class="w-3 h-3 rounded-full bg-red-500"
+                            ></span>
+                            <span
+                                class="w-3 h-3 rounded-full bg-yellow-500"
+                            ></span>
+                            <span
+                                class="w-3 h-3 rounded-full bg-green-500"
+                            ></span>
+
+                            <span
+                                class="mx-auto text-xs font-mono text-zinc-500"
+                            >
+                                relationship — bash
+                            </span>
+
+                            <span class="w-14"></span>
+                        </div>
+
+                        <!-- terminal -->
+                        <div
+                            id="terminal"
+                            class="p-5 sm:p-8 font-mono text-xs sm:text-sm leading-8"
+                        >
+                            <div class="text-zinc-500">
+                                $ relationship --status
+                            </div>
+
+                            <div class="terminal-line text-emerald-400">
+                                ✔ Connected: true
+                            </div>
+
+                            <div class="terminal-line text-emerald-400">
+                                ✔ Trusted: true
+                            </div>
+
+                            <div class="terminal-line text-emerald-400">
+                                ✔ Loved: 100%
+                            </div>
+
+                            <div class="terminal-line text-emerald-400">
+                                ✔ Uptime:
+                                <span id="terminalUptime">0 anos</span>
+                            </div>
+
+                            <div class="terminal-line text-pink-400">
+                                ✔ Expected Duration: FOREVER ❤️
+                            </div>
+
+                            <div class="mt-2 text-zinc-600">
+                                $
+                                <span
+                                    class="inline-block w-2 h-4 bg-emerald-400 align-middle animate-blink"
+                                ></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- FOOTER -->
+            <!-- ========================================================= -->
+
+            <section class="px-4 py-24 text-center">
+                <div class="font-mono text-xs text-rose-400 mb-4">
+                    // continued...
+                </div>
+
+                <h2 class="text-3xl sm:text-4xl font-bold">
+                    To be continued...
+                </h2>
+
+                <p class="mt-4 text-zinc-500">
+                    Porque nossa história está apenas começando.
+                </p>
+
+                <div class="mt-8 text-2xl">❤️</div>
+            </section>
+        </main>
+
+        <!-- ============================================================= -->
+        <!-- MUSIC PLAYER -->
+        <!-- ============================================================= -->
+
+        <div
+            id="musicPlayer"
+            class="music-player fixed bottom-4 right-4 z-50 glass rounded-2xl p-3 flex items-center gap-3 transition-all duration-300"
+        >
+            <div
+                id="vinyl"
+                class="vinyl relative w-12 h-12 rounded-full border border-white/10 flex items-center justify-center shrink-0"
+            >
+                <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+
+                <div
+                    class="absolute inset-1 rounded-full border border-white/5"
+                ></div>
+            </div>
+
+            <div class="hidden sm:block">
+                <div class="text-xs font-semibold text-zinc-200">
+                    Nossa música
+                </div>
+
+                <div class="text-[10px] font-mono text-zinc-500 mt-1">
+                    our-song.mp3
+                </div>
+            </div>
+
+            <button
+                id="musicToggle"
+                type="button"
+                class="w-10 h-10 rounded-xl bg-rose-500 hover:bg-rose-400 flex items-center justify-center transition"
+                aria-label="Tocar Música"
+            >
+                ▶
+            </button>
+
+            <audio
+                id="audio"
+                src="music/our-song.mp3"
+                preload="metadata"
+            ></audio>
         </div>
 
-        <div class="counter-message">
+        <!-- ============================================================= -->
+        <!-- LIGHTBOX -->
+        <!-- ============================================================= -->
 
-            <p>
-                Vivendo nossa melhor aventura
-            </p>
+        <div
+            id="lightbox"
+            class="lightbox fixed inset-0 z-[100] bg-black/90 backdrop-blur-md flex items-center justify-center p-4"
+        >
+            <button
+                id="lightboxClose"
+                class="absolute top-5 right-5 w-11 h-11 rounded-xl bg-white/10 hover:bg-white/20 text-xl"
+                aria-label="Fechar"
+            >
+                ×
+            </button>
 
+            <button
+                id="lightboxPrev"
+                class="absolute left-4 sm:left-8 w-12 h-12 rounded-xl bg-white/10 hover:bg-white/20 text-xl"
+                aria-label="Anterior"
+            >
+                ❮
+            </button>
+
+            <div
+                class="max-w-5xl max-h-[85vh] flex items-center justify-center"
+            >
+                <img
+                    id="lightboxImage"
+                    src=""
+                    alt=""
+                    class="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl"
+                />
+            </div>
+
+            <button
+                id="lightboxNext"
+                class="absolute right-4 sm:right-8 w-12 h-12 rounded-xl bg-white/10 hover:bg-white/20 text-xl"
+                aria-label="Próxima"
+            >
+                ❯
+            </button>
         </div>
 
-</section>
-
-<section class="timeline">
-
-    <h2>Nossa Timeline</h2>
-
-    <div class="event" data-aos="fade-right">
-        <img src="images/photo1.jpg">
-        <div>
-            <h3>Primeiro Encontro</h3>
-            <p>O dia que mudou tudo.</p>
-        </div>
-    </div>
-
-    <div class="event" data-aos="fade-left">
-        <img src="images/photo2.jpg">
-        <div>
-            <h3>Primeira Viagem</h3>
-            <p>Memórias que jamais serão esquecidas.</p>
-        </div>
-    </div>
-
-    <div class="event" data-aos="fade-right">
-        <img src="images/photo3.jpg">
-        <div>
-            <h3>Nossos Sonhos</h3>
-            <p>Construídos juntos.</p>
-        </div>
-    </div>
-
-</section>
-
-<section class="gallery">
-
-    <h2 data-aos="fade-up">Momentos Inesquecíveis</h2>
-
-    <div class="gallery-grid">
-
-        <img src="images/photo1.jpg" data-aos="zoom-in" alt="">
-        <img src="images/photo10.jpg" data-aos="zoom-in" data-aos-delay="100" alt="">
-        <img src="images/photo2.jpg" data-aos="zoom-in" data-aos-delay="200" alt="">
-        <img src="images/photo3.jpg" data-aos="zoom-in" data-aos-delay="300" alt="">
-        <img src="images/photo4.jpg" data-aos="zoom-in" data-aos-delay="400" alt="">
-        <img src="images/photo5.jpg" data-aos="zoom-in" data-aos-delay="500" alt="">
-        <img src="images/photo6.jpg" data-aos="zoom-in" data-aos-delay="600" alt="">
-        <img src="images/photo7.jpg" data-aos="zoom-in" data-aos-delay="700" alt="">
-        <img src="images/photo8.jpg" data-aos="zoom-in" data-aos-delay="800" alt="">
-        <img src="images/photo9.jpg" data-aos="zoom-in" data-aos-delay="900" alt="">
-
-    </div>
-
-</section>
-
-<section class="love-letter" data-aos="fade-up">
-
-    <div class="letter-container">
-
-        <div class="letter-decoration">❤️</div>
-
-        <h2>Para o Amor da Minha Vida</h2>
-
-        <div class="letter-content">
-
-            <p>
-                Existem momentos na vida que mudam tudo.
-            </p>
-
-            <p>
-                Algumas pessoas passam anos procurando felicidade,
-                enquanto eu tive a sorte de encontrá-la em você.
-            </p>
-
-            <blockquote>
-                "Você transformou dias comuns em memórias extraordinárias."
-            </blockquote>
-
-            <p>
-                Obrigado por cada sorriso compartilhado,
-                por cada abraço nos dias difíceis,
-                por acreditar em nós mesmo quando o caminho parecia distante.
-            </p>
-
-            <p>
-                Se eu pudesse voltar no tempo,
-                escolheria você novamente.
-                E novamente.
-                E novamente.
-            </p>
-
-            <blockquote>
-                "Entre bilhões de pessoas no mundo,
-                meu lugar favorito continua sendo ao seu lado."
-            </blockquote>
-
-            <p>
-                Que possamos continuar escrevendo nossa história,
-                página por página,
-                sonho por sonho,
-                conquista por conquista.
-            </p>
-
-            <p class="highlight">
-                <span id="loveTyping"></span>
-                <span class="typing-cursor">|</span>
-            </p>
-
-        </div>
-
-        <div class="signature">
-
-            <span>Com todo meu amor,</span>
-
-            <h3>Bruno</h3>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="terminal-section" data-aos="zoom-in-up">
-
-<pre class="terminal">
-$ relationship status
-
-Loading...
-
-✓ Connected
-
-✓ Trusted
-
-✓ Loved
-
-Relationship uptime:
-<span id="uptime"></span>
-
-Expected duration:
-FOREVER ❤️
-</pre>
-
-</section>
-
-<section class="final" data-aos="fade-up">
-
-    <h2>
-        To be continued...
-    </h2>
-
-    <p>
-        Porque nossa história está apenas começando.
-    </p>
-
-</section>
-
-<audio id="bgMusic" loop>
-    <source src="music/our-song.mp3" type="audio/mpeg">
-</audio>
-
-<div class="music-player">
-    <button id="playBtn">▶️ Tocar Música</button>
-    <button id="pauseBtn">⏸️ Pausar</button>
-</div>
-
-<div id="lightbox" class="lightbox">
-
-    <span class="close-lightbox">
-        &times;
-    </span>
-
-    <img
-        id="lightbox-image"
-        src=""
-        alt=""
-    >
-
-    <button id="prevPhoto">
-        ❮
-    </button>
-
-    <img id="lightbox-image">
-
-    <button id="nextPhoto">
-        ❯
-    </button>
-
-</div>
-
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-<script>
-AOS.init({
-    duration: 1200,
-    once: true,
-    easing: 'ease-out-cubic'
-});
-</script>
-
-<script src="js/app.js"></script>
-</body>
+        <script src="js/app.js"></script>
+    </body>
 </html>
