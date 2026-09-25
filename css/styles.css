@@ -1,10 +1,30 @@
-html {
+:root {
+            --motion-fast: 160ms;
+            --motion-base: 300ms;
+            --motion-reveal: 600ms;
+            --motion-pulse: 2800ms;
+            --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        html {
             scroll-behavior: smooth;
         }
 
         body {
             background: #0B0B0B;
             color: #EDEDED;
+            animation: page-in 450ms var(--ease-standard) both;
+        }
+
+        @keyframes page-in {
+            from {
+                opacity: .96;
+                transform: translateY(4px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         ::selection {
@@ -83,6 +103,59 @@ html {
             }
         }
 
+        .status-dot {
+            display: inline-block;
+            animation: pulse-signal var(--motion-pulse) var(--ease-standard) infinite;
+            transform-origin: center;
+        }
+
+        @keyframes pulse-signal {
+            0%, 100% {
+                opacity: .6;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.08);
+            }
+        }
+
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(12px);
+            transition: opacity var(--motion-reveal) var(--ease-standard),
+                        transform var(--motion-reveal) var(--ease-standard);
+        }
+
+        .reveal-on-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-delay-1 { transition-delay: 90ms; }
+        .reveal-delay-2 { transition-delay: 180ms; }
+        .reveal-delay-3 { transition-delay: 270ms; }
+        .reveal-delay-4 { transition-delay: 360ms; }
+
+        .timeline-reveal {
+            transform: scaleY(0);
+            transform-origin: top;
+            transition: transform 700ms var(--ease-standard);
+        }
+
+        .timeline-reveal.is-visible {
+            transform: scaleY(1);
+        }
+
+        .project-card {
+            transition: transform var(--motion-base) var(--ease-standard),
+                        border-color var(--motion-base) var(--ease-standard);
+        }
+
+        .project-card:hover {
+            transform: translateY(-3px);
+        }
+
         @media (prefers-reduced-motion: reduce) {
             html {
                 scroll-behavior: auto;
@@ -93,5 +166,19 @@ html {
             *::after {
                 animation-duration: .01ms !important;
                 transition-duration: .01ms !important;
+            }
+
+            body {
+                animation: none;
+            }
+
+            .status-dot {
+                animation: none;
+            }
+
+            .reveal-on-scroll,
+            .timeline-reveal {
+                opacity: 1;
+                transform: none;
             }
         }

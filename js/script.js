@@ -26,3 +26,24 @@ tailwind.config = {
         }
     }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const targets = document.querySelectorAll('.reveal-on-scroll, .timeline-reveal');
+    if (!targets.length) return;
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        targets.forEach(el => el.classList.add('is-visible'));
+        return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.12 });
+
+    targets.forEach(el => observer.observe(el));
+});
